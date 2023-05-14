@@ -27,6 +27,9 @@ background-color: #39e6f6;    color: black;
     margin: 0 auto;
     text-align: center;
     padding: 120px 16px;
+    background-color: #5134af;
+    color: white;
+
   }
   .anas {
     width: 250px;
@@ -40,8 +43,6 @@ background-color: #39e6f6;    color: black;
     width: 120px;
     height: 120px;
     background-color: #39e6f6;
-    
-    text-align: right;
     float: right;
 
   
@@ -51,16 +52,44 @@ background-color: #39e6f6;    color: black;
     margin: 0 auto;
     background-color: #214360;
     list-style-type: none;
+    color: white;
+    
 
   }
   table, th, td {
+   border-radius: 10px;
     border-collapse: collapse;
+    border: solid;
+    
   }
   table{
     border-radius: 10px;
-    margin: 0;
+    margin: 0 auto;
     border-radius: 10px;
-    border: solid;
-    padding: 200px;
+    font-size: 150%;
+    width: 60%;
+    height: 80%;
+    margin-top: 200px;
   }
-  
+  form{
+    border-collapse: collapse;
+
+  }
+  .thead{
+background-color: #214360;
+  }
+  #todo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #todo1 input[type="checkbox"] {
+        margin: 0;
+    }
+  main{
+    background-color: #5134af;
+
+  }
+  #name{
+    border-color:#214360 ;
+  }
