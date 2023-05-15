@@ -24,12 +24,14 @@ background-color: #39e6f6;    color: black;
     color: white;
   }
   footer {
-    margin: 0 auto;
-    text-align: center;
-    padding: 120px 16px;
     background-color: #5134af;
     color: white;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
   }
   .anas {
     width: 250px;
@@ -60,7 +62,7 @@ background-color: #39e6f6;    color: black;
    border-radius: 10px;
     border-collapse: collapse;
     border: solid;
-    
+    color: white;
   }
   table{
     border-radius: 10px;
@@ -93,6 +95,6 @@ background-color: #214360;
   #name{
     border-color:#214360 ;
   }
-  *{
-    color: white;
+  body{
+    background-color: #5134af;
   }
