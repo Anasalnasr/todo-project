@@ -20,11 +20,11 @@ background-color: #39e6f6;    color: black;
     color: black;
   }
   .navbar a.active {
-    background-color: #5134af;
+    background-color: #214360;
     color: white;
   }
   footer {
-    background-color: #5134af;
+    background-color: #214360;
     color: white;
     position: fixed;
     left: 0;
@@ -44,7 +44,7 @@ background-color: #39e6f6;    color: black;
     margin: 0 auto;
     width: 120px;
     height: 120px;
-    background-color: #39e6f6;
+    background-color: #214360;
     float: right;
 
   
@@ -62,7 +62,7 @@ background-color: #39e6f6;    color: black;
    border-radius: 10px;
     border-collapse: collapse;
     border: solid;
-    color: white;
+    color: rgb(1, 1, 1);
   }
   table{
     border-radius: 10px;
@@ -89,12 +89,12 @@ background-color: #214360;
         margin: 0;
     }
   main{
-    background-color: #5134af;
+    background-color: #f4f4f6;
 
   }
   #name{
     border-color:#214360 ;
   }
   body{
-    background-color: #5134af;
+    background-color: #ebeaef;
   }
