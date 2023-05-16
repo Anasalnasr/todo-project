@@ -16,3 +16,11 @@ if (age <= 0) {
     // Continue with further operations if the age is valid
     console.log("Your age is: " + age);
 }
+var skipWelcome = confirm("Do you want to skip the welcoming message?");
+
+if (skipWelcome) {
+    console.log("Skipping the welcoming message...");
+} else {
+    console.log("Displaying the welcoming message...");
+    // Display the welcoming message here
+}
